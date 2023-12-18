@@ -142,10 +142,8 @@ button:hover {
         font-size: 3rem;
     }
 
-    
-
     nav a {
-        padding: 1px;
+        padding: 7px;
         letter-spacing: normal;
         font-size: 1.1rem;
         text-decoration: none;
