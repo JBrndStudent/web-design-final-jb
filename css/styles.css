@@ -135,11 +135,32 @@ button:hover {
 @media (max-width: 429px) {
     html {
         line-height: 135%;
+        margin: 0, 90%;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 
     nav a {
         padding: 1px;
         letter-spacing: normal;
         font-size: .8rem;
+        text-decoration: none;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav a:link,
+    nav a:visited {
+        text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:active {
+        background-color: white;
+        color: #292929;
     }
 }
